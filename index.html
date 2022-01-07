@@ -31,26 +31,18 @@
 <body>
   <div id="card">
     <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="assets\untitled.glb"
+                  alt="A 3D model of an astronaut"
+                  seamless-poster
+                  shadow-intensity="1"
+                  camera-controls
+                  interaction-prompt="auto"
+                  auto-rotate ar magic-leap ar-modes="webxr scene-viewer quick-look">
 
-
-                  <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="assets\untitled.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls></model-viewer>
     </model-viewer>
-    <section class="attribution">
-      <span>
-        <h1>3D Show Piece</h1>
-        <span>By <a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank">AllInReality</a></span>
-      </span>
-    </section>
-    
-  </div>
-  
-  
-  <footer>
-    <span>MUDOU page is a basic demo of the <a href="https://github.com/GoogleWebComponents/model-viewer" target="_blank">&lt;model-viewer&gt;</a> web component by AllInReality.</span>
-    <span>It makes displaying 3D and AR content on the web easy ✌️</span>
-  
-  </footer>
-  
+
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   
   <!-- 💁 Include both scripts below to support all browsers! -->
 
